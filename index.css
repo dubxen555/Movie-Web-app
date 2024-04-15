@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(#000000 50%,#ffb92a 50%);
+}
+h1{
+    color: wheat;
+}
+.container{
+    font-size: 16px;
+    width:90vw;
+    max-width: 37.5em;
+    padding: 3em 1.8em;
+    background-color: #201f28;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.6em;
+    box-shadow: 1.2em 2em 3em rgba(0,0,0,0.2);
+}
+.search-container{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.2em;
+}
+.search-container input,
+.search-container button {
+    font-size: 0.9em;
+    outline: none;
+    border-radius: 0.3em;
+}
+.search-container input{
+    background-color: transparent;
+    border: 1px solid #a0a0a0;
+    padding: 0.7em;
+    color: #ffffff;
+}
+.search-container input:focus {
+    border-color: #ffffff;
+}
+.search-container button {
+    background-color: #ffb92a;
+    border: none;
+    cursor:pointer; 
+}
+
+#result {
+    color: #ffffff;
+}
+.info{
+    position: relative;
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    align-items:center;
+    margin-top: 1.2em;
+
+}
+.poster{
+    width:100%;
+}
+h2{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0.06em ;
+    color: #a0a0a0;
+}
+.details{
+    display: flex;
+    font-size: 0.95em;
+    gap: 1em;
+    justify-content: center;
+    color: #a0a0a0;
+    margin: 0.6em 0;
+    font-weight: 300;
+}
+.gener{
+    display: flex;
+    justify-content: space-around
+}
+
+h4{
+    text-align: center;
+}
+
+h3{
+    font-weight: 500;
+    margin-top: 1.2em;
+}
+p{
+    font-size: 0.8em;
+    font-weight: 300;
+    line-height: 1.8em;
+    text-align: justify;
+    color: #a0a0a0;
+}
+
+#rating{
+    display: flex;
+    margin: 0.6em 0 0.8em 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#rating h4{
+    display: inline-block;
+    font-size: 1.1em;
+
+}
+
+#error{
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer {
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0 0;
+    color: #000000;
+    text-align: center;
+}
